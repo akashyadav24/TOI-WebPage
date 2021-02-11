@@ -1,0 +1,303 @@
+body{
+    font-size: 11px;
+}
+*,ul{
+    margin: 0;
+}
+.top{
+    background: #1a1a1a;
+    border-bottom: 2px solid #333;
+    position: relative;
+    z-index: 9999;
+    box-sizing: border-box;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.top ul{
+    list-style: none;
+    padding: 0;
+}
+.top a{
+    color: white;
+    text-decoration: none;
+}
+
+.top .dropbtn {
+  background-color: inherit;
+  color: white;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.top .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.top .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.top .dropdown-content a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  border: 0.02px solid black;
+}
+
+/* Change color of dropdown links on hover */
+.top .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.top .dropdown:hover .dropdown-content {display: block;}
+
+.top .tpwidget-inline{
+    height: 24px !important;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#3023ae,#c86dd7) !important;
+    border-radius: 3px !important;
+    border: 0 !important;
+    padding: 0 8px;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+    padding: 2px;
+    width: 20px;
+}
+
+.main-area{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    height: 90px;
+}
+.bottom-area{
+    background-color: #be2819;
+    font-family: roboto,'Roboto',calibri,'arial narrow',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+header ul,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+header a:hover{
+    color: white;
+}
+.bottom-area li{
+    padding: 4px;
+}
+.bottom-area .active{
+    background-color: white;
+    color: black;
+}
+.bottom-area .active a{
+    background-color: white;
+    color: black;
+}
+.bottom-area li:hover{
+    background-color: white;
+    color: black!important;
+}
+.bottom-area li:hover a{
+    color: black;
+}
+main a{
+    color: black;
+}
+main ul,li{
+    list-style: none;
+    padding :0;
+}
+
+.list{
+    text-align: left;
+}
+
+.w_img{
+    height: 85px;
+    width: 141px;
+    float: left;
+    width: 141px;
+    margin-right: 10px;
+}
+main img{
+    height: 100%;
+    width: 100%;
+}
+.w_tle{
+    display: block;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: -2px;
+    font-size: 16px;
+}
+
+.w_desc{
+    font-size: 13px;
+    color: #000;
+    line-height: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+  }
+  .heading{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 4px;
+  }
+
+  .tab-strip{
+    border-bottom: 3px solid #303030;
+    background: #bababa;
+    margin: 0 0 8px 0;
+  }
+  .tab-strip li{
+    border-right: 1px solid #f5f5f5;
+  }
+  .tab-strip li:nth-child(4){
+    border-right: none;
+  }
+  .tab-strip li a{
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 110%;
+    color: #fff;
+    font-weight: 600;
+  }
+  .tab-strip .active{
+    background: #303030;
+  }
+
+  .tab-strip li:hover{
+    background: #303030;
+  }
+  .tab-content span.more {
+    display: block;
+    line-height: 14px;
+    font-size: 110%;
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid #000;
+    padding-top: 2px;
+    position: relative;
+}
+
+.tab-content span.more a {
+    color: #000;
+    background: #fff;
+    left: 50%;
+    padding: 0 5px;
+    position: absolute;
+    top: -9px;
+    transform: translateX(-50%);
+}
+.sidebar .sechead {
+    font-size: 18px;
+    line-height: 1;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #333;
+}
+.w_img2{
+    color: #454545;
+    font: normal 14px/20px proxima-regular1,arial,sans-serif;
+    margin-bottom: 5px;
+    display: block;
+    width: 94px!important;
+    height: 70px;
+}
+.w_img2 img{
+    width: 94px;
+}
+.cvs_wdt a{
+    color: #454545;
+    font: normal 14px/20px proxima-regular1,arial,sans-serif;
+    margin-bottom: 5px;
+    display: block;
+    padding: 3px;
+}
+#footer {
+    background: #111 url(https://static.toiimg.com/photo/57270035.cms) repeat;
+    padding: 20px 0;
+    border-top: 3px solid #be2819;
+    position: relative;
+    z-index: 98 !important;
+    text-align: left;
+}
+#footer h2 {
+    font-size: 12px;
+    line-height: 1;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-left: 17px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+}
+#footer h2:after {
+    position: absolute;
+    content: "";
+    background: #333;
+    height: 1px;
+    top: 50%;
+    width: 100%;
+}
+#footer ul{
+    padding-left: 17px;
+}
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+    width: 33.33%;
+    margin: 0 -2px;
+    padding-right: 1px;
+    vertical-align: top;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#footer  ul li a {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 15px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+}
+.section{
+    margin-bottom: 20px;
+}
